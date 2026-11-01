@@ -16,7 +16,7 @@ header {
 nav a {
     color: #c8b6ff;
     margin-left: 15px;
-    text-decoration: none;
+    
 }
 
 main {
@@ -48,4 +48,36 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#contactForm input[type="tel"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #a78bfa;
+    background: #0b1026;
+    color: white;
+    font-size: 16px;
+}
+
+#contactForm label {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#contactForm button {
+    background: #a78bfa;
+    color: #0b1026;
+    font-weight: bold;
+}
+
+#formMessage {
+    color: #c8b6ff;
 }
